@@ -1,0 +1,86 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+
+}
+
+body{
+
+}
+
+#wrap{
+    position: relative;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#header{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}
+
+h1{
+    font-family: arial;
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    margin: 70px 0px 70px 0px;
+}
+
+#header a{
+    display: block;
+    text-decoration: none;
+}
+
+#links{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    text-align: center;
+}
+
+a{
+    font-family: arial;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    font-size: 1em;
+    color: green;
+    text-align: center;
+}
+
+#content{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-height: 300px;
+    background-color: red;
+}
+
+#footer{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-height: 100px;
+    background-color: blue;
+    margin: 0px;
+}
